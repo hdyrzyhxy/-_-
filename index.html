@@ -1,61 +1,89 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>مدونة التعبيرات</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>مدونة تعبير</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 1rem;
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    li:hover {
+      transform: translateY(-2px);
+    }
+
+    a {
+      text-decoration: none;
+      color: #4a90e2;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>مدونة التعبيرات</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">الرئيسية</a></li>
-      </ul>
-    </nav>
+    <h1>مدونة تعبير</h1>
   </header>
-
   <main>
-    <section class="posts">
-
-      <article class="post">
-        <h2><a href="om.html" class="read-more">الأم... نبع الحنان وقلب الحياة</a></h2>
-        <p class="post-meta">بقلم: الكاتب | تاريخ: 29 أبريل 2025</p>
-        <p class="post-content">الأم هي نبع العطاء... <a href="om.html" class="read-more">اقرأ المزيد</a></p>
-      </article>
-
-      <article class="post">
-        <h2><a href="teacher.html" class="read-more">المعلم... صانع الأجيال</a></h2>
-        <p class="post-meta">بقلم: الكاتب | تاريخ: 30 أبريل 2025</p>
-        <p class="post-content">المعلم هو النور الذي يضيء طريق العلم... <a href="teacher.html" class="read-more">اقرأ المزيد</a></p>
-      </article>
-
-      <article class="post">
-        <h2><a href="life.html" class="read-more">الحياة... مسرح التجارب</a></h2>
-        <p class="post-meta">بقلم: الكاتب | تاريخ: 1 مايو 2025</p>
-        <p class="post-content">الحياة مليئة بالدروس والتجارب... <a href="life.html" class="read-more">اقرأ المزيد</a></p>
-      </article>
-
-      <article class="post">
-        <h2><a href="beauty.html" class="read-more">الجمال... لغة لا تحتاج إلى ترجمة</a></h2>
-        <p class="post-meta">بقلم: الكاتب | تاريخ: 2 مايو 2025</p>
-        <p class="post-content">الجمال ليس فقط في المظهر... <a href="beauty.html" class="read-more">اقرأ المزيد</a></p>
-      </article>
-
-      <article class="post">
-        <h2><a href="money.html" class="read-more">المال... وسيلة لا غاية</a></h2>
-        <p class="post-meta">بقلم: الكاتب | تاريخ: 3 مايو 2025</p>
-        <p class="post-content">المال وسيلة للعيش الكريم... <a href="money.html" class="read-more">اقرأ المزيد</a></p>
-      </article>
-
-    </section>
+    <ul>
+      <li><a href="beauty.html">موضوع تعبير عن الجمال</a></li>
+      <li><a href="life.html">موضوع تعبير عن الحياة</a></li>
+      <li><a href="money.html">موضوع تعبير عن المال</a></li>
+      <li><a href="om.html">موضوع تعبير عن الأم</a></li>
+      <li><a href="teacher.html">موضوع تعبير عن المعلم</a></li>
+    </ul>
   </main>
-
   <footer>
-    <p>&copy; 2025 مدونة التعبيرات - جميع الحقوق محفوظة</p>
+    &copy; 2025 مدونة تعبير
   </footer>
-
-  <script src="assets/js/script.js"></script>
 </body>
 </html>
