@@ -2,17 +2,76 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>اتصل بنا</title>
   <style>
-    body { font-family: 'Arial', sans-serif; background-color: #f9f9f9; color: #333; padding: 2rem; line-height: 1.8; }
-    h1 { color: #4a90e2; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 1.5rem;
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      color: #4a90e2;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      .container {
+        padding: 1.2rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>اتصل بنا</h1>
-  <p>نحن دائمًا سعداء بتواصلكم معنا. إذا كان لديك أي استفسار أو اقتراح، يمكنك مراسلتنا عبر البريد الإلكتروني:</p>
-  <p><strong>hdyrzyhxy.m.taabeer@gmail.com</strong></p>
-  <p>كما يمكنك متابعة موقعنا لمزيد من المواضيع المفيدة عبر الرابط:</p>
-  <p><a href="https://taabeer.netlify.app/" target="_blank">https://taabeer.netlify.app/</a></p>
+  <div class="container">
+    <h1>اتصل بنا</h1>
+    <p>نحن دائمًا سعداء بتواصلكم معنا. إذا كان لديك أي استفسار أو اقتراح، يمكنك مراسلتنا عبر البريد الإلكتروني:</p>
+    <p><strong>hdyrzyhxy.m.taabeer@gmail.com</strong></p>
+    <p>كما يمكنك متابعة موقعنا لمزيد من المواضيع المفيدة عبر الرابط:</p>
+    <p><a href="https://taabeer.netlify.app/" target="_blank">https://taabeer.netlify.app/</a></p>
+  </div>
 </body>
 </html>
